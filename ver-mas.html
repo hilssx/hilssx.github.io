@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Más - Transportadora de Dulces y Galletas</title>
+    <link rel="stylesheet" href="estilos3.css">
+</head>
+<body>
+
+    <header>
+        <h1>Transportadora Dulce Express</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="sectores.html">Sectores</a>
+            <a href="bodegas.html">Bodegas</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="ver-mas">
+        <h2>Más Información</h2>
+        <div class="contenido">
+            <p>En Transportadora Dulce Express nos dedicamos a ofrecer el mejor servicio de transporte y distribución de dulces y galletas en todo el país. Nuestros vehículos están equipados con tecnología de última generación para garantizar que los productos lleguen a su destino en perfecto estado.</p>
+            <button class="ver-mas-btn" onclick="mostrarMas()">Ver Más</button>
+            <div id="mas-informacion" class="informacion-adicional">
+                <h3>¿Por qué elegirnos?</h3>
+                <p>Contamos con un equipo altamente capacitado, con una flota de vehículos adaptados para el transporte de productos delicados. Además, nuestras instalaciones de almacenamiento son de la más alta calidad, garantizando la frescura y seguridad de los productos en todo momento.</p>
+                <ul>
+                    <li>Almacenamiento con temperatura controlada</li>
+                    <li>Flota de vehículos especializados</li>
+                    <li>Rastreo en tiempo real de los envíos</li>
+                    <li>Distribución eficiente en todo el país</li>
+                    <li>Atención al cliente 24/7</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Transportadora Dulce Express - Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        function mostrarMas() {
+            const informacion = document.getElementById('mas-informacion');
+            const boton = document.querySelector('.ver-mas-btn');
+
+            if (informacion.style.display === "none" || informacion.style.display === "") {
+                informacion.style.display = "block";
+                boton.textContent = "Ver Menos";
+            } else {
+                informacion.style.display = "none";
+                boton.textContent = "Ver Más";
+            }
+        }
+    </script>
+
+</body>
+</html>

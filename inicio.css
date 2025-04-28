@@ -1,0 +1,301 @@
+@font-face{
+    font-family: 'choplin';
+    src: url(fuentes/Rene\ Bieder\ -\ Choplin\ SemiBold.otf)
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family: 'choplin';
+}
+.contenedor{
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    display: flex;
+    padding-top: 20px;
+    background: rgb(255, 255, 255);
+}
+
+/* .contenedor header .icono{
+    padding-top: 20px;
+    background: #EEEE;
+    width: 100%;
+    height: 50px;
+}
+header .icono a img{
+    margin-right: 16px;
+} */
+header .logo{
+    margin: 30px;
+    margin-top: 10px;
+}
+header nav{
+
+   background: rgb(255, 255, 255);
+   
+  
+}
+.buscar{
+    margin-bottom: 300px;
+}
+header nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 12px;
+    margin-top: 20px;
+    background: #fff;
+    color:#352825 ;
+    justify-content: flex-end;
+    
+}
+header nav a:hover{
+    text-decoration: underline;
+    border-bottom: 10px;
+   color: #dfb655;
+   padding-bottom: 10px;
+}
+main .imagen{
+    background: url(imagenes/bodega3.jpg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 20%;
+    /* padding: 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+main .imagen .cartel{
+    color: #fff;
+    background: #00000037;
+    display: flex;
+    font-size: 20px;
+    width: 80%;
+    height: 170px;
+    text-align: center;
+    justify-content: center;
+      margin-bottom: 30px;
+}
+main .imagen .cartel h1{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.382);
+}
+
+main .imagen .btn2{
+    font-size: 18px;
+    display: flex;
+    border: 1px solid #f9f6f5;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+main .imagen .btn2 a{
+    text-decoration: none;
+    color: #fff;
+}
+main .imagen .btn2:hover{
+    background: #706d6557;
+    text-transform: uppercase;
+    color: #352825;
+}
+main .imagen{
+    padding-top: 50px;
+    
+}
+/* main .imagen2{
+    background: #eeee;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagenes/cabecera-twitter-plantilla-boutique-minimalista-diseno-plano_23-2149353661.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+main .sabores{
+    display: flex;
+   justify-content: center;
+   padding: 40px;
+     
+}
+main .sabores a{
+    text-decoration: none;
+    color: #000000;
+    padding: 20PX;
+    text-align: center;
+}
+main .sabores a:hover{
+    color: #a39f9f;
+}
+main h2{
+    color: #000000;
+    font-size: 30px;
+    padding-top: 40px;
+}
+main .sabores img{
+    margin-bottom: 20px;
+}
+main .btn{
+    align-items: center;
+    height: 50px;
+    border: 1px solid #352825;
+    margin: 0 auto;
+    font-size: 19px;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    margin-bottom: 80px;
+}
+main .btn a{
+    text-decoration: none;
+    color: #000000;
+}
+main .btn :hover{
+    color: rgb(207, 157, 92);
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.mapa h2{
+    list-style: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+.mapa{
+    text-align: initial;
+    background: #ffefc932;
+    
+    
+}
+footer .suscribete{
+    height: 200px;
+    flex-direction: column;
+    background:  rgb(228, 221, 206);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+footer .suscribete p{
+    padding-top: 25px;
+    color: #1f1e1d;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.formulario input{
+    margin-bottom: 15px;
+    font-size: 15px;
+    height: 40px;
+    width: 380px;
+}
+.formulario input[type="submit"]{
+    background: rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+}
+footer .suscribete a{
+    color: #331111;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .suscribete a:hover{
+    color: rgb(146, 138, 128);
+}
+footer .unete{
+    background: #fff;
+    width: 100%;
+    height: 200px;
+    padding: 60px;
+}
+footer .unete .redes2 p{
+    font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}   
+footer .rojo{
+    color: rgb(190, 160, 121);
+}
+footer .unete .redes2 p{
+    width: 100%;
+    height: 60px;
+}
+footer .redes2 a img{
+    margin-right: 16px;
+}
+footer .final{
+    background: #eee;
+    width: 100%;
+    height: 100px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #5a5959;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .final a{
+    color: #a39f9f;
+    text-decoration: none;
+}
+@media screen and (max-width: 800px){
+    header{
+        width: 100;
+    }
+}
+@media screen and (max-width: 800px){
+     main{
+            width: 100%;
+            height: auto;
+    }
+    main .sabores{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600){
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    footer .formulario input [type="submit"]{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 600){
+    footer .suscribete p .ROSADO{
+        display: flex;
+        flex-direction: column;
+    }
+}

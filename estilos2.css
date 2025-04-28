@@ -1,0 +1,128 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.contacto {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #ff6347;
+}
+
+.informacion-contacto {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.detalle-contacto {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.detalle-contacto i {
+    font-size: 2.5em;
+    color: #ff6347;
+    margin-bottom: 15px;
+}
+
+.detalle-contacto h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.formulario-contacto {
+    background-color: #f2f2f2;
+    padding: 25px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.formulario-contacto h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.formulario-contacto label {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.formulario-contacto button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-contacto button:hover {
+    background-color: #e5533f;
+}
+
+footer {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

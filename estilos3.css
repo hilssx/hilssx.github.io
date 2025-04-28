@@ -1,0 +1,106 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #b0776d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.ver-mas {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.ver-mas h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #b0776d;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contenido p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.ver-mas-btn {
+    background-color: #b0776d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.ver-mas-btn:hover {
+    background-color: #ded1d0;
+}
+
+.informacion-adicional {
+    display: none;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.informacion-adicional h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.informacion-adicional ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.informacion-adicional ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #b0776d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
